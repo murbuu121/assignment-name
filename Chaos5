@@ -1,0 +1,7 @@
+def chaos(x, n, k):
+    for i in range(n):
+        x = k * x * (1 - x)
+        print(x)
+ 
+k = float(input("Enter a value for k: "))
+chaos(0.1, 30, k)
